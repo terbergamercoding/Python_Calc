@@ -1,0 +1,21 @@
+from ast import operator
+
+
+print("calculator is now open!!")
+
+operator = input("operator = ")
+first_value = int(input("first value = "))
+second_value = int(input("second value = "))
+
+if operator == "+":
+    add = first_value + second_value
+    print("your answer is " + str(add))
+if operator == "-":
+    sub = first_value - second_value
+    print("your answer is " + str(sub))
+if operator == "/":
+    div = first_value / second_value
+    print("your answer is " + str(div))
+if operator == "x":
+    div = first_value * second_value
+    print("your answer is " + str(div))
